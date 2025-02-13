@@ -4,7 +4,7 @@ import project3 from "../assets/projects/goldn2.jpg";
 import project4 from "../assets/projects/ksolr2.jpg";
 
 export const HERO_CONTENT = `Web developer sa strašću za kodiranjem i dizajniranjem digitalnih rešenja.
-Već 4 godine izrađujem web sajtove putem WordPress platforme. Pored toga, nudim usluge održavanja sajtova i SEO optimizacije, kako biste maksimalno iskoristili svoj online potencijal.
+Već 4 godine izrađujem web sajtove prema zahtevima klijenta. Sve što Vam je potrebno je ideja i dobijate gotov web sajt u najkraćem roku. Pored toga, nudim usluge održavanja sajtova i SEO optimizacije, kako biste maksimalno iskoristili svoj online potencijal.
 Takođe, ako vam je potreban marketing na društvenim mrežama, mogu vam pomoći u promociji vašeg proizvoda ili usluge.
 
 Osnivač sam sopstvenog preduzeća - Alpix Design koje se bavi izradom modernih i funkcionalnih web projekata.`;
