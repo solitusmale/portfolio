@@ -1,8 +1,8 @@
-import {RiReactjsLine} from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandPython } from "react-icons/tb";
-import {SiMongodb} from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 import { FaWordpress } from "react-icons/fa";
-import {FaNodeJs} from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { TbBrandVite } from "react-icons/tb";
 
 import { animate, motion } from "framer-motion";
