@@ -2,6 +2,7 @@ import project1 from "../assets/projects/sy2.jpg";
 import project2 from "../assets/projects/s4.jpg";
 import project3 from "../assets/projects/goldn2.jpg";
 import project4 from "../assets/projects/ksolr2.jpg";
+import project5 from "../assets/projects/kilime3.png";
 
 export const HERO_CONTENT = `Web developer sa strašću za kodiranjem i dizajniranjem digitalnih rešenja.
 Već 4 godine izrađujem web sajtove prema zahtevima klijenta. Sve što Vam je potrebno je ideja i dobijate gotov web sajt u najkraćem roku. Pored toga, nudim usluge održavanja sajtova i SEO optimizacije, kako biste maksimalno iskoristili svoj online potencijal.
@@ -61,6 +62,14 @@ export const PROJECTS = [
       "Sajt kilimsolar.rs se bavi prodajom solarnih panela, urađen je sajt uz pomoć Wordpress platforme i oformljen webshop uz Woocommerce",
     technologies: ["HTML", "CSS", "Wordpress", "Elementor", "Woocommerce"],
 	link: "https://kilimsolar.rs",
+  },
+  {
+    title: "Kilim E3",
+    image: project5,
+    description:
+      "Sajt kilim-e3.rs se bavi prodajom stolarije, urađen je sajt uz pomoć Wordpress platforme i oformljen webshop uz Woocommerce",
+    technologies: ["HTML", "CSS", "Wordpress", "Elementor", "Woocommerce"],
+	link: "https://kilim-e3.rs",
   },
 ];
 
