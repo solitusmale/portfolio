@@ -12,7 +12,7 @@ const container = (delay) => ( {
 }
 )
 
-const Hero = () => {
+const Hero = ({ language }) => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div className="flex flex-wrap">
@@ -39,7 +39,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     className="my-2 max-w-xl py-6 font-light tracking-tighter">
-                        {HERO_CONTENT}
+                        {HERO_CONTENT[language]}
                     </motion.p>
                 </div>
             </div>

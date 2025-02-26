@@ -2,11 +2,11 @@ import aboutImg from "../assets/about2.png";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
-const About = () => {
+const About = ({language}) => {
   return (
     <div className="border-b border-neutral-900 pb-4">
         <h2 className="my-20 text-center text-4xl">
-            O <span className="text-neutral-500">Meni</span>
+            <span>{ABOUT_TEXT.omeni[language]}</span>
         </h2>
         <div className="flex flex-wrap">
             <motion.div 
@@ -25,7 +25,7 @@ const About = () => {
             transition={{duration: 0.5}}
             className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                    <p className="my-2 max-w-xl py-6">{ABOUT_TEXT[language]}</p>
                 </div>
             </motion.div>
                 
