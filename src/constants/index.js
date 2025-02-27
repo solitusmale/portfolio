@@ -86,10 +86,9 @@ export const PROJECTS_TITLE =
 
 export const PROJECTS = [
   {
-    title: {
-      sr: "SeeYou - proizvođač custom salveta",
-      en: "SeeYou - Custom Napkin Manufacturer",
-    },
+    title: "SeeYou",
+  
+    
     image: project1,
     description: {
       sr: "Sajt SeeYou.rs, izrađen kroz Wordpress platformu uz Elementor plugin. Dodati su Custom CSS elementi gde je potrebno",

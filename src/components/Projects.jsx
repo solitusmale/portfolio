@@ -26,7 +26,7 @@ const Projects = ({language}) => {
             initial={{opacity: 0, x: 100}}
             transition={{duration: 0.5}}
             className="w-full max-w-xl lg:w-3/4">
-            <h6 className="mb-2 font-semibold">{project.title[language]}</h6>
+            <h6 className="mb-2 font-semibold">{project.title}</h6>
             <p className="mb-4 text-neutral-500">{project.description[language]}</p>
             {project.technologies.map((tech, index) => (
                 <span className="text-purple-900 mr-2 bg-neutral-900 px-2 py-1 rounded font-small font-medium" key={index}>
