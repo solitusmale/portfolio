@@ -87,8 +87,6 @@ export const PROJECTS_TITLE =
 export const PROJECTS = [
   {
     title: "SeeYou",
-  
-    
     image: project1,
     description: {
       sr: "Sajt SeeYou.rs, izrađen kroz Wordpress platformu uz Elementor plugin. Dodati su Custom CSS elementi gde je potrebno",
@@ -100,14 +98,14 @@ export const PROJECTS = [
 	
   },
   {
-    title: "Smart Home System",
-    image: project2,
+    title: "Kilim E3",
+    image: project5,
     description: {
-      sr: "Sajt smarthomesystem.rs izrađen je pomoću WordPressa, uz korišćenje prilagođene teme i relevantnih pluginova za optimalne performanse i funkcionalnost. Upotrebljen je Custom CSS i Javascript za izradu stranice kategorija proizvoda",
-      en: "SmartHomeSystem.rs website was created using WordPress, with a custom theme and relevant plugins for optimal performance and functionality. Custom CSS and JavaScript were used for the product category page development."
+      sr: "Sajt kilim-e3.rs se bavi prodajom stolarije, urađen je sajt uz pomoć Wordpress platforme i oformljen webshop uz Woocommerce",
+      en: "Kilim-e3.rs website focuses on selling windows and doors. The website was created using the WordPress platform, with an integrated webshop via WooCommerce.",
     },
-    technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "Elementor", "Woocommerce"],
-	  link: "https://smarthomesystem.rs/home/",
+    technologies: ["HTML", "CSS", "Wordpress", "Elementor", "Woocommerce"],
+	  link: "https://kilim-e3.rs",
   },
   {
     title: "GoldN Store",
@@ -130,14 +128,14 @@ export const PROJECTS = [
 	  link: "https://kilimsolar.rs",
   },
   {
-    title: "Kilim E3",
-    image: project5,
+    title: "Smart Home System",
+    image: project2,
     description: {
-      sr: "Sajt kilim-e3.rs se bavi prodajom stolarije, urađen je sajt uz pomoć Wordpress platforme i oformljen webshop uz Woocommerce",
-      en: "Kilim-e3.rs website focuses on selling windows and doors. The website was created using the WordPress platform, with an integrated webshop via WooCommerce.",
+      sr: "Sajt smarthomesystem.rs izrađen je pomoću WordPressa, uz korišćenje prilagođene teme i relevantnih pluginova za optimalne performanse i funkcionalnost. Upotrebljen je Custom CSS i Javascript za izradu stranice kategorija proizvoda",
+      en: "SmartHomeSystem.rs website was created using WordPress, with a custom theme and relevant plugins for optimal performance and functionality. Custom CSS and JavaScript were used for the product category page development."
     },
-    technologies: ["HTML", "CSS", "Wordpress", "Elementor", "Woocommerce"],
-	  link: "https://kilim-e3.rs",
+    technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "Elementor", "Woocommerce"],
+	  link: "https://smarthomesystem.rs/home/",
   },
 ];
 
