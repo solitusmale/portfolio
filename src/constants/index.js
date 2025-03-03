@@ -3,6 +3,8 @@ import project2 from "../assets/projects/s4.jpg";
 import project3 from "../assets/projects/goldn2.jpg";
 import project4 from "../assets/projects/ksolr2.jpg";
 import project5 from "../assets/projects/kilime3.png";
+import project6 from "../assets/projects/drone1.jpg";
+
 
 export const HERO_CONTENT = {
   
@@ -27,7 +29,8 @@ export const ABOUT_TEXT = {
   sr: `Već 4 godine bavim se izradom profesionalnih i vizuelno privlačnih web sajtova koristeći WordPress platformu. Kroz rad sa različitim klijentima i industrijama, stekao sam iskustvo u prilagođavanju custom tema, optimizaciji performansi i implementaciji funkcionalnosti prema specifičnim potrebama korisnika. Fokusiram se na kreiranje sajtova koji su brzi, responzivni i optimizovani za pretraživače, kako bi vaša online prisutnost bila što uspešnija.`,
 
   en: `For 4 years, I have been creating professional and visually appealing websites using the WordPress platform.
-Through collaboration with different clients and industries, I have gained experience in customizing themes, optimizing performance, and implementing functionalities based on specific user needs. I focus on developing websites that are fast, responsive, and search engine optimized to ensure the best possible online presence for my clients.`,
+Through collaboration with different clients and industries, I have gained experience in customizing themes, optimizing performance, and implementing functionalities based on specific user needs. I focus on developing websites that are fast, responsive, and search engine optimized to ensure the best possible online presence for my clients.
+`,
   omeni: {
     sr: "O Meni",
     en: "About Me",
@@ -136,6 +139,16 @@ export const PROJECTS = [
     },
     technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "Elementor", "Woocommerce"],
 	  link: "https://smarthomesystem.rs/home/",
+  },
+  {
+    title: "Drone - Landing Page",
+    image: project6,
+    description: {
+      sr: "Landing Page koji sadrži 3d elemente, izrađen uz pomoc HTML, CSS, Vanilla JS i ThreeJS 3d biblioteke za JavaScript.",
+      en: "Landing page containing 3D elements, created using HTML, CSS, Vanilla JS, and the Three.js 3D library for JavaScript."
+    },
+    technologies: ["HTML", "CSS", "JavaScript", "ThreeJS"],
+	  link: "https://drone1.vercel.app/",
   },
 ];
 
