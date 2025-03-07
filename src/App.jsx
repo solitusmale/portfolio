@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react"
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -58,6 +59,7 @@ function App() {
         <Experience language={language} />
         <Projects language={language} />
         <Contact language={language} />
+        <Analytics />
       </div>
     </div>
   );
