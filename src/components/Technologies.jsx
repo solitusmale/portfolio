@@ -5,7 +5,6 @@ import { FaWordpress } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandVite } from "react-icons/tb";
 import { TECH } from "../constants";
-import { FaCube } from "react-icons/fa"; // FontAwesome cube icon
 
 import { animate, motion } from "framer-motion";
 
@@ -21,14 +20,6 @@ const iconVariants = (duration) => ({
         }
     }
 });
-
-const MyComponent = () => {
-    return (
-        <div>
-            <FaCube size={50} color="black" />
-        </div>
-    );
-};
 
 const Technologies = ({language}) => {
   return (

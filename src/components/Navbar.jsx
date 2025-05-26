@@ -14,8 +14,8 @@ const Navbar = ({ toggleLanguage }) => {
          
           
         <a href="https://www.linkedin.com/in/aleksa-veljkovic-4215ab351/"><FaLinkedin /></a>
-        <FaGithub />
-        <FaInstagram />
+        <a href="https://github.com/solitusmale/"><FaGithub /></a>
+        {/* <FaInstagram /> */}
         </div>
     </nav>
 

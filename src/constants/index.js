@@ -4,16 +4,17 @@ import project3 from "../assets/projects/goldn2.jpg";
 import project4 from "../assets/projects/ksolr2.jpg";
 import project5 from "../assets/projects/kilime3.png";
 import project6 from "../assets/projects/drone1.jpg";
+import project7 from "../assets/projects/portfolio.JPG";
 
 
 export const HERO_CONTENT = {
   
   sr: `Web developer sa strašću za kodiranjem i dizajniranjem digitalnih rešenja.
-Već 4 godine izrađujem web sajtove prema zahtevima klijenta. Sve što Vam je potrebno je ideja i dobijate gotov web sajt u najkraćem roku. Pored toga, nudim usluge održavanja sajtova i SEO optimizacije, kako biste maksimalno iskoristili svoj online potencijal.
+Već 3 godine izrađujem web sajtove prema zahtevima klijenta. Sve što Vam je potrebno je ideja i dobijate gotov web sajt u najkraćem roku. Pored toga, nudim usluge održavanja sajtova i SEO optimizacije, kako biste maksimalno iskoristili svoj online potencijal.
 Takođe, ako vam je potreban marketing na društvenim mrežama, mogu vam pomoći u promociji vašeg proizvoda ili usluge.
 Osnivač sam sopstvenog preduzeća - Alpix Design koje se bavi izradom modernih i funkcionalnih web projekata.`,
   en: `Web developer with a passion for coding and designing digital solutions. 
-For 4 years, I have been creating websites based on client requirements. All you need is an idea, and you will get a complete website in no time. Additionally, I offer website maintenance and SEO optimization services to help you maximize your online potential.
+For 3 years, I have been creating websites based on client requirements. All you need is an idea, and you will get a complete website in no time. Additionally, I offer website maintenance and SEO optimization services to help you maximize your online potential.
 If you need social media marketing, I can assist in promoting your products or services.
 I am also the founder of my own company, Alpix Design, which specializes in creating modern and functional web projects.`,
 
@@ -26,11 +27,10 @@ export const TECH = {
 };
 export const ABOUT_TEXT = {
 
-  sr: `Već 4 godine bavim se izradom profesionalnih i vizuelno privlačnih web sajtova koristeći WordPress platformu. Kroz rad sa različitim klijentima i industrijama, stekao sam iskustvo u prilagođavanju custom tema, optimizaciji performansi i implementaciji funkcionalnosti prema specifičnim potrebama korisnika. Fokusiram se na kreiranje sajtova koji su brzi, responzivni i optimizovani za pretraživače, kako bi vaša online prisutnost bila što uspešnija.`,
+  sr: `Frontend web developer i diplomirani inženjer informacionih tehnologija sa Univerziteta Singidunum. Specijalizovan za frontend tehnologije, uključujući HTML, CSS (Flexbox, Grid, Bootstrap, Tailwind CSS) i JavaScript. Imam iskustvo sa relacionim i NoSQL bazama podataka. Pokrenuo sam sopstvenu firmu, koja posluje od septembra 2024. godine u oblasti web dizajna, sa nekoliko uspešno završenih projekata. Trenutno istražujem React JS kao deo svog stalnog profesionalnog usavršavanja.`,
 
-  en: `For 4 years, I have been creating professional and visually appealing websites using the WordPress platform.
-Through collaboration with different clients and industries, I have gained experience in customizing themes, optimizing performance, and implementing functionalities based on specific user needs. I focus on developing websites that are fast, responsive, and search engine optimized to ensure the best possible online presence for my clients.
-`,
+  en: `Web developer and a graduate with a degree in Information Technology from University of Singidunum. Specialized in frontend technologies including HTML, CSS (Flexbox, Grid, Bootstrap, Tailwind CSS), and JavaScript. Experienced with relational and NoSQL databases. I launched my own company, operating since September 2024 in the field of web design, with several successfully completed projects. Currently exploring React JS as part of my ongoing professional development.`,
+  
   omeni: {
     sr: "O Meni",
     en: "About Me",
@@ -150,6 +150,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "ThreeJS"],
 	  link: "https://drone1.vercel.app/",
   },
+  {
+    title: "Provisional Portfolio Website",
+    image: project7,
+    description: {
+      sr: "Portfolio website izradjen uz pomoc HTML, CSS i JavaScript-a. Uz pomoć Javascripta se demonstrira promena boje stilskih elemenata, kao i svetla i tamna tema sajta.",
+      en: "A portfolio website created using HTML, CSS, and JavaScript. JavaScript is used to demonstrate the color switching of style elements, as well as toggling between light and dark themes."
+    },
+    technologies: ["HTML", "CSS", "JavaScript"],
+	  link: "https://alpix.vercel.app/",
+  }
 ];
 
 export const CONTACT = {
