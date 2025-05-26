@@ -154,8 +154,8 @@ export const PROJECTS = [
     title: "Provisional Portfolio Website",
     image: project7,
     description: {
-      sr: "Portfolio website izradjen uz pomoc HTML, CSS i JavaScript-a. Uz pomoć Javascripta se demonstrira promena boje stilskih elemenata, kao i svetla i tamna tema sajta.",
-      en: "A portfolio website created using HTML, CSS, and JavaScript. JavaScript is used to demonstrate the color switching of style elements, as well as toggling between light and dark themes."
+      sr: "Portfolio website izradjen uz pomoc HTML, CSS i JavaScript-a. Uz pomoć Javascripta se demonstrira promena boje stilskih elemenata uključujući i RGB mod. Sajt podržava svetlu i tamna temu sajta.",
+      en: "A portfolio website created using HTML, CSS, and JavaScript. JavaScript is used to demonstrate the color switching of style elements including a RGB mode, as well as toggling between light and dark themes."
     },
     technologies: ["HTML", "CSS", "JavaScript"],
 	  link: "https://alpix.vercel.app/",
@@ -168,6 +168,6 @@ export const CONTACT = {
     en: "Get in contact",
   },
   address: "",
-  phoneNo: "+381643661470",
+  phoneNo: "",
   email: "alexaw32@hotmail.com",
 };
