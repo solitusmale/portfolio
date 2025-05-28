@@ -4,7 +4,7 @@ import project3 from "../assets/projects/goldn2.jpg";
 import project4 from "../assets/projects/ksolr2.jpg";
 import project5 from "../assets/projects/kilime3.png";
 import project6 from "../assets/projects/drone1.jpg";
-import project7 from "../assets/projects/portfolio.jpg";
+import project7 from "../assets/projects/portfolio2.jpg";
 
 
 export const HERO_CONTENT = {
