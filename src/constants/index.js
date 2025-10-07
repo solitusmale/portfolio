@@ -5,6 +5,7 @@ import project4 from "../assets/projects/ksolr2.jpg";
 import project5 from "../assets/projects/kilime3.png";
 import project6 from "../assets/projects/drone1.jpg";
 import project7 from "../assets/projects/portfolio2.jpg";
+import project8 from "../assets/projects/pgpejcic.webp";
 
 
 export const HERO_CONTENT = {
@@ -114,8 +115,8 @@ export const PROJECTS = [
     title: "GoldN Store",
     image: project3,
     description: {
-      sr: "Sajt Goldnstore.rs je sajt koji nudi prodaju smart sudopera, izrađen kroz Shopify platformu u skladu sa zahtevima klijenta",
-      en: "GoldnStore.rs website is an e-commerce platform selling smart sinks, built using Shopify according to the client’s requirements.",
+      sr: "Sajt Goldnstore.rs je sajt koji nudi prodaju smart sudopera, izrađen kroz Shopify platformu u skladu sa zahtevima klijenta (Trenutno nije online).",
+      en: "GoldnStore.rs website is an e-commerce platform selling smart sinks, built using Shopify according to the client’s requirements (Currently not online).",
     },
     technologies: ["HTML", "CSS", "Shopify"],
 	  link: "https://goldnshop.rs",
@@ -159,6 +160,16 @@ export const PROJECTS = [
     },
     technologies: ["HTML", "CSS", "JavaScript"],
 	  link: "https://alpix.vercel.app/",
+  },
+  {
+    title: "Website for a local agricultural business",
+    image: project8,
+    description: {
+      sr: "Website za lokalni poljoprivredni biznis uz pomoć Wordpress platforme i elementor page buildera, ova stranica je jos u izradi.",
+      en: "A website for a local agricultural business created using Wordpress and the Elementor page builder, this website is still under construction."
+    },
+    technologies: ["HTML", "CSS", "Wordpress", "Elementor"],
+	  link: "https://pgpejcic.whf.bz/pgpejcic/",
   }
 ];
 
