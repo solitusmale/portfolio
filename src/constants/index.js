@@ -1,10 +1,10 @@
-import project1 from "../assets/projects/sy2.jpg";
-import project2 from "../assets/projects/s4.jpg";
-import project3 from "../assets/projects/goldn2.jpg";
-import project4 from "../assets/projects/ksolr2.jpg";
-import project5 from "../assets/projects/kilime3.png";
-import project6 from "../assets/projects/drone1.jpg";
-import project7 from "../assets/projects/portfolio2.jpg";
+import project1 from "../assets/projects/sy2.webp";
+import project2 from "../assets/projects/s4.webp";
+import project3 from "../assets/projects/goldn2.webp";
+import project4 from "../assets/projects/ksolr2.webp";
+import project5 from "../assets/projects/kilime3.webp";
+import project6 from "../assets/projects/drone1.webp";
+import project7 from "../assets/projects/portfolio2.webp";
 import project8 from "../assets/projects/pgpejcic.webp";
 
 
@@ -139,7 +139,7 @@ export const PROJECTS = [
       en: "SmartHomeSystem.rs website was created using WordPress, with a custom theme and relevant plugins for optimal performance and functionality. Custom CSS and JavaScript were used for the product category page development."
     },
     technologies: ["Wordpress", "HTML", "CSS", "JavaScript", "Elementor", "Woocommerce"],
-	  link: "https://smarthomesystem.rs/home/",
+	  link: "https://smarthomesystem.rs/",
   },
   {
     title: "Drone - Landing Page",
